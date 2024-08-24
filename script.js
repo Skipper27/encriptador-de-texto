@@ -41,9 +41,6 @@ function desencriptar(stringDesencriptada){
     }
     return stringDesencriptada
 }
-document.getElementById("btnCopiar").addEventListener("click", function() {
-    const mensaje = document.querySelector(".mensaje");
-    mensaje.select();
-    document.execCommand("copy"); 
-    alert("Texto copiado al portapapeles!");
-});
+navigator.clipboard.writeText(mensaje.value)
+  .then(() => alert("Texto copiado al portapapeles!"))
+  .catch(err => console.error('Error al copiar al portapapeles: ', err));
