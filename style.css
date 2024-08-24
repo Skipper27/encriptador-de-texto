@@ -36,7 +36,7 @@ main{
     height: 60%;
     width: 99%;
 }
-::placeholder { color: #0A3871; }
+::placeholder { color: #ffffff; }
     .text-area:focus{
         outline: none;
     }
