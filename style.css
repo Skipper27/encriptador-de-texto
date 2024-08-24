@@ -1,0 +1,106 @@
+*{
+    background: rgb(17, 17, 17) ;
+    font-family: "Inter";
+    font-weight: 80%;
+    font-size: 100%;
+    line-height: 230%;
+}
+
+.Logo{
+    padding-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%) ;
+    width: 8%;
+}
+.By-Julian{
+    color: #555151;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50%;
+    margin-left: 5%;
+}
+
+.text-area{
+    border-style: none;
+    border-radius: 3%;
+    color: #ffffff;
+    background-color: #201f1f;
+    margin-top: 3%;
+    text-transform: lowercase;
+    height: 60%;
+    width: 99%;
+}
+::placeholder { color: #0A3871; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.mensaje{
+    background: #555151;
+    background-image: url("/Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin: 20px auto;
+    margin-left: 300px;
+    margin-top: 2%;
+    margin-right: 30%;
+    padding-left: 400px;
+    height: 400px;
+    width: 28%;
+    position: relative;
+}
+.mensaje:focus{ 
+    outline: none;
+}
+
+.Botones{
+    display: flex;
+    margin-top: 50%;
+}
+
+.btn-encriptar{
+    background-color: #132b49;
+    border: 1px solid  rgb(28, 141, 175);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    
+}
+.btn-desencriptar{
+    background: #D8DFE8;
+    color: #080958;
+    border: 2px solid rgb(28, 141, 175);
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+.btnCopiar{
+    border: 1px solid rgb(28, 141, 175);
+    border-radius: 24px;
+    color: rgb(28, 141, 175);
+    width: 280px;
+    height: 47px;
+    cursor: pointer;
+    margin-left: 500px;
+    position: absolute;
+}
+
+.Informacion{
+    color: #495057;
+    font-size: 15px;
+}
